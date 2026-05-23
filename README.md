@@ -1,26 +1,27 @@
-# Week 5 Customer Sales Analysis
+# Interactive Sales Dashboard
 
-## Project Overview
-This project analyzes customer sales data using Pandas.
+## Objective
+Create an interactive sales dashboard using Seaborn and Plotly.
 
 ## Features
-- Data Cleaning
-- Grouping & Aggregation
-- Pivot Tables
-- Monthly Sales Analysis
-- Data Visualization
+- Statistical plots
+- Interactive visualizations
+- Heatmaps
+- Correlation analysis
+- Dashboard layout
+- Plotly hover effects and animations
+
+## Chart Types
+1. Box Plot
+2. Violin Plot
+3. Heatmap
+4. Scatter Plot
+5. Bar Chart
+6. Line Chart
 
 ## Run Project
 
-Open a terminal inside the `week5_customer_sales_analysis/week5_customer_sales_analysis` folder, then run:
-
-```powershell
-python customer_analysis.py
-```
-
-If your terminal is at the parent folder, use:
-
-```powershell
-cd week5_customer_sales_analysis
-python customer_analysis.py
+```bash
+pip install -r requirements.txt
+python dashboard.py
 ```
